@@ -19,6 +19,6 @@ social: true  # includes social icons at the bottom of the page
 
 Hi everyone! Glad you find this place~
 
-I'm Siqi Wu, a sophomore from <font color = "#dd00dd">the School of Computer Science and Engineering (School of Cyberspace Security) at University of Electronic Science and Technology of China</font>. You could also call me barry, as my friends are used to. I'm majoring in Artificial Intelligence and my current research interests involve recommendation systems and data compression.
+I'm Siqi Wu, a sophomore from <font color = "#dd00dd">the School of Computer Science and Engineering (School of Cyberspace Security) at University of Electronic Science and Technology of China</font>. You could also call me barry, as my friends are used to. I'm majoring in Artificial Intelligence and my current research interests involve recommender systems and data compression.
 
 Pursuing postgraduate studies is at my top agenda now. （｡ò ∀ ó｡）

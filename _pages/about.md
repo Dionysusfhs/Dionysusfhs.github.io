@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Sophomore, University of Electronic Science and Technology of China</a>
+subtitle: <a href='#'>Junior, University of Electronic Science and Technology of China</a>
 
 profile:
   align: right
@@ -19,7 +19,7 @@ social: false  # includes social icons at the bottom of the page
 
 Hi everyone! Glad you find this place~
 
-I'm Siqi Wu, a sophomore from **[the School of Computer Science and Engineering (School of Cyberspace Security) at University of Electronic Science and Technology of China](https://www.en.scse.uestc.edu.cn/)**. You could also call me barry, as my friends are used to. I'm majoring in Artificial Intelligence and my current research interests involve recommender systems and data compression.
+I'm Siqi Wu, a junior from **[the School of Computer Science and Engineering (School of Cybersecurity) at University of Electronic Science and Technology of China](https://www.en.scse.uestc.edu.cn/)**. You could also call me barry, as my friends are used to. I'm majoring in Artificial Intelligence and my current research interests involve recommender systems and AI-Medicine.
 
 Pursuing postgraduate studies is at my top agenda now. （｡ò ∀ ó｡）
 
@@ -29,7 +29,7 @@ Pursuing postgraduate studies is at my top agenda now. （｡ò ∀ ó｡）
 
   **Artificial Intelligence**
 
-- 2018–2021.6  **The First High School of Changsha, Hunan**, China
+- 2018.9–2021.6  **The First High School of Changsha, Hunan**, China
 
 **CONTACT**
 

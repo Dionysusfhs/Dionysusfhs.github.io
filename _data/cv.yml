@@ -26,6 +26,7 @@
       year: Apr 2024 - Present
       description:
         - Exploring the intersection of AI and biomedical data analysis, with a focus on machine learning challenges arising from healthcare and human disease.
+    
     - title: Research Intern
       institution: Network and Distributed Systems Laboratory, UESTC
       supervisor: Dr. Shaoshuai Zhang
@@ -34,6 +35,7 @@
         - Developed a matrix generation feature to create metrics with varying distributions and condition numbers.
         - Implemented a PyTorch version of the CGLS algorithm, ensuring stability by avoiding direct use of Pytorch's 'inv' function.
         - Recorded and analyzed the iterative output values to assess algorithm convergent behavior.
+        
     - title: Research Intern
       institution: Center for Future Media, UESTC
       supervisor: Prof. Ping Hu
@@ -42,6 +44,7 @@
         - Currently immersed in exploring the cutting-edge MMVP(Motion-Matrix-based Video Prediction) framework, as presented in ICCV.
         - Experienced in replicating and extending experiments details in the aforementioned paper.
         - Actively engaged in crafting a comprehensive review paper on optical flow and motion matrix in video prediction.
+        
     - title: Research Intern
       institution: Data Mining Lab, UESTC
       supervisor: Prof. Junming Shao

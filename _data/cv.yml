@@ -11,62 +11,97 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Electronic Science and Technology of China
-      year: 2025
+    - title: Bachelor of Engineering in Artificial Intelligence
+      institution: University of Electronic Science and Technology of China (UESTC)
+      year: Sep 2021 - Jun 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: High School Diploma
-      institution: The First High School of Changsha, Hunan
-      year: 2021
-      description:
-        - Description 1.
-        - Description 2.
+        - Main Courses: Statistical Learning Theory and Applications(98), Python Language Programming and Its Application(96), Deep Learning(90), Machine Learning(88), Knowledge Representation and Reasoning(88), Principle and Application of Database(87), Digital Logic(87)
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Intern
+      institution: West China Hospital
+      supervisor: Dr. Dongze Li
+      year: Apr 2024 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Exploring the intersection of AI and biomedical data analysis, with a focus on machine learning challenges arising from healthcare and human disease.
+    - title: Research Intern
+      institution: Network and Distributed Systems Laboratory, UESTC
+      supervisor: Dr. Shaoshuai Zhang
+      year: Mar 2024 - Present
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Developed a matrix generation feature to create metrics with varying distributions and condition numbers.
+        - Implemented a PyTorch version of the CGLS algorithm, ensuring stability by avoiding direct use of Pytorch's 'inv' function.
+        - Recorded and analyzed the iterative output values to assess algorithm convergent behavior.
+    - title: Research Intern
+      institution: Center for Future Media, UESTC
+      supervisor: Prof. Ping Hu
+      year: Mar 2024 - Present
       description:
+        - Currently immersed in exploring the cutting-edge MMVP(Motion-Matrix-based Video Prediction) framework, as presented in ICCV.
+        - Experienced in replicating and extending experiments details in the aforementioned paper.
+        - Actively engaged in crafting a comprehensive review paper on optical flow and motion matrix in video prediction.
+    - title: Research Intern
+      institution: Data Mining Lab, UESTC
+      supervisor: Prof. Junming Shao
+      year: Dec 2022 - Oct 2023
+      description:
+        - Innovative Data Compression Technique: Utilized Simhash for feature extraction to generate non-redundant and compressed data block signatures. Employed k-means clustering and Hamming distance to group similar data blocks. Applied Zstd for further compression.
+        - Achieved significant improvements in compression ratio and runtime on UCI Machine Learning Repository datasets. Notably, with K=4, achieved approximately a 19% improvement in compression ratio and a 32% reduction in runtime.
+        - Demonstrated the model's potential to enhance existing data compression algorithms. Future work may explore deep learning for feature extraction and dynamic clustering algorithms.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Research Intern
+      institution: School of Computing, National University of Singapore
+      supervisor: Prof. Terence SIM
+      year: Jul 2023 - Jul 2023
+      description:
+        - Implemented Gaussian blur for noise reduction and added masks to face images, achieving 100% accuracy in SVM-based classification of masked and non-masked faces.
+        - Utilized a face recognition library for employee vs. outsider classification with 0.86 accuracy. Overcame challenges in masked face detection by training a new model, achieving 88.9% accuracy.
+        - Explored PCA for reducing mask effects, reaching 98.5% accuracy on unmasked faces. Identified issues with glasses and low light conditions. Proposed future improvements such as Domain Generalization, Meta-learning, Domain Alignment, and Mixture of Experts (MoE).
 
-- title: Open Source Projects
+- title: Project Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Project Team Member
+      institution: KRR Course Project, UESTC
+      location: Chengdu, China
+      year: Dec 2023 - Jan 2024
+      supervisor: Prof. Xu Zheng
+      description:
+        - Developed a visual and textual similarity retrieval system using CLIP and BLIP models.
+        - Used BLIP for image-text alignment and CLIP for cosine similarity calculations, successfully retrieving similar images for both in-database and out-of-database cases.
+        - Implemented a web-based interactive interface for user-friendly search and explored the application of CLIP and BLIP models in visual association search.
+        - Gained practical insights into deep learning model applications and identified areas for code improvement, including comments, documentation, and modularization.
+
+    - title: Project Team Member
+      institution: Statistical Learning Course Project, UESTC
+      location: Chengdu, China
+      year: Sep 2023 - Nov 2023
+      supervisor: Prof. Juan Chen
+      description:
+        - Used the pre-trained large language model DeBERTa based on Transformer to complete the English composition scoring task.
+        - Optimization Strategies included selecting AdamW optimizer with momentum and adaptive learning rate, separating weight decay from parameter updates, implementing smooth L1 loss for moderate gradients, and employing a combination of Cosine Annealing and Warm Restarts.
+        - Achieved substantial performance improvements in predicting scores for both long and short essays, attaining a Kaggle score of 0.4492, closely approaching the gold medal standard (0.433356).
+
+- title: Working Experience
+  type: time_table
+  contents:
+    - title: Research Assistant
+      institution: Nanqiang Intelligent Vision Technology Co.Ltd
+      location: Remote
+      year: Jan 2024 - Feb 2024
+      description:
+        - Used roLabelImg to annotate the data of 400 pictures for precise object detection.
+
+    - title: Network Operations Intern
+      institution: Network Division, China Unicom
+      location: Kunming, China
+      year: Jun 2022 - Jul 2022
+      description:
+        - Mainly responsible for traditional dual line business, including resource verification, scheduling, allocation, construction, data production, local testing, and cross domain front-end testing.
+        - Proficient in the entire business process and operating the local network scheduling system and one-stop system.
+        - Received unanimous praise from leaders and colleagues after the internship.
 
 - title: Honors and Awards
   type: time_table
@@ -74,25 +109,15 @@
     - year: 2023
       items: 
         - Huawei Smart Base Scholarship 
-        - Pacesetter Student Scholarship
-        - Sitech Scholarship
-    - year: 2021
-      items: 
-        - Bowen Scholarship (awarded by CUHK(Shenzhen))
+        - UESTC Exemplary Student Scholarship
+        - Sitech Scholarship with Sitech Recruitment Reexamination Direct Pass Card
 
-- title: Academic Interests
-  type: nested_list
+- title: Skills
+  type: map
   contents:
-    - title: AI-Medicine
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Recommender System
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Guitar, Badminton, Running.
+    - name: Languages
+      value: Mandarin, English (IELTS Reading 8.0/Listening 7.5/Speaking 6.5/Writing 6.5 Total: 7.0)
+    - name: Tools & Frameworks
+      value: PyTorch, Pandas, TensorFlow, LaTeX, HTML
+    - name: Programming Languages
+      value: C, Python, JavaScript, SQL

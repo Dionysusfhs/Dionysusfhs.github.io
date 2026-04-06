@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html lang="en">
 
 
@@ -97,14 +97,10 @@
                 2025.07 - Present<br>
                 <strong>Ads Algorithm Engineer</strong>
                 <br> Mentor: Hub Di and Saul Li
-                <!-- <ul>
-                <li>Designed and implemented multi-region mixed training experiments, exploring batch sampling ratios, data path configuration, and resource scheduling; achieved +0.4% pCR AUC improvement across five regions (excluding SG) and +1.5% in SG.</li>
-                <li>Built a unified monitoring system for ad models covering sample/feature consistency, AUC and PCOC; enabled daily auto-updates and historical backfill.</li>
-                <li>Resolved online–offline feature/sample inconsistencies and reduced feature inconsistency rate from &gt;5% to &lt;1%.</li>
-                <li>Activated 500+ feature nodes and integrated 200+ new features into production pipelines.</li>
-                </ul> -->
                 <ul>
-                <li>Focus on pCR model research.</li>
+                <li><strong>PGMV Model:</strong> Unified multi-region L2 models into a single merged model to reduce maintenance overhead. Introduced query–item interaction features and optimized model architecture to remove the dependency on organic pCR scores (org_pcr), completing full-region rollout. Refined price and sold_cnt feature pipelines for improved prediction accuracy.</li>
+                <li><strong>Uplift Model:</strong> Built CVR/CTR uplift models based on DragonNet and VCNet with causal inference; decoupled uplift from the UNICR model for parallel serving and faster iteration. Incorporated seller/platform voucher features and item price-discount sensitivity features; expanded training coverage by introducing non-RCT samples while preserving RCT data for unbiased evaluation.</li>
+                <li><strong>Monitoring &amp; Diagnostics:</strong> Developed a unified ad-model monitoring system covering sample/feature consistency, AUC, and PCOC with daily auto-updates. Identified and resolved online–offline inconsistencies (cache staleness, FSE operator errors, SQL partition misalignment), reducing feature inconsistency rate from &gt;5% to &lt;1%.</li>
                 </ul>
             </td>
         </tr>
@@ -241,4 +237,4 @@
     </tr>
 </table>
 </body>
-</html> -->
+</html>

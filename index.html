@@ -96,11 +96,9 @@
                 <strong>Shopee Information Technology Co., Ltd.</strong><br>
                 2025.07 - Present<br>
                 <strong>Ads Algorithm Engineer</strong>
-                <br> Mentor: Hub Di and Saul Li
                 <ul>
-                <li><strong>PGMV Model:</strong> Unified multi-region L2 models into a single merged model to reduce maintenance overhead. Introduced query–item interaction features and optimized model architecture to remove the dependency on organic pCR scores (org_pcr), completing full-region rollout. Refined price and sold_cnt feature pipelines for improved prediction accuracy.</li>
-                <li><strong>Uplift Model:</strong> Built CVR/CTR uplift models based on DragonNet and VCNet with causal inference; decoupled uplift from the UNICR model for parallel serving and faster iteration. Incorporated seller/platform voucher features and item price-discount sensitivity features; expanded training coverage by introducing non-RCT samples while preserving RCT data for unbiased evaluation.</li>
-                <li><strong>Monitoring &amp; Diagnostics:</strong> Developed a unified ad-model monitoring system covering sample/feature consistency, AUC, and PCOC with daily auto-updates. Identified and resolved online–offline inconsistencies (cache staleness, FSE operator errors, SQL partition misalignment), reducing feature inconsistency rate from &gt;5% to &lt;1%.</li>
+                <li><strong>PGMV Model:</strong> Consolidated separate regional models into a unified model, reducing maintenance overhead. Introduced query-item interaction features, optimized the model architecture, and removed dependency on organic pCR (org_pcr, an upstream prediction score), enabling a full rollout across all regions. Refined the definitions of price and sold_cnt features to improve prediction accuracy.</li><br>
+                <li><strong>Uplift Model:</strong> Developed a multi-treatment coupon uplift model based on DragonNet. Applied FiLM to incorporate merchant/platform voucher context features and item-level price-effect sensitivity features. Further upgraded voucher cost estimation to a dispatch-to-redeem modeling framework, improving the offline voucher_cost PCOC from approximately 0.6 to 0.9.</li>
                 </ul>
             </td>
         </tr>
@@ -194,10 +192,9 @@
         <br>
         <td style="padding:0px;width:100%;vertical-align:middle">
             <ul>
-            <li>2024 UESTC SCSE Outstanding Student Award</li>
-            <li>2023 Huawei Intelligence Foundation Scholarship</li>
-            <li>2022-2024 UESTC Exemplary Student Scholarship</li>
+            <li>2026 Tencent Ads Algo Competition: Top 3%</li>
             <li>2025 Baidu Business AI Technology Innovation Competition: Top 20</li>
+            <li>2023 Huawei Intelligence Foundation Scholarship</li>
             </ul>
         </td>
         </tr>
